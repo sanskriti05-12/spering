@@ -1,0 +1,1 @@
+var nav=$("#navbarSupportedContent"),btn=$(".custom_menu-btn");function getCurrentYear(){var t=(new Date).getFullYear();$("#displayDate").html(t)}btn.click,btn.click(function(t){t.preventDefault(),nav.toggleClass("lg_nav-toggle"),document.querySelector(".custom_menu-btn").classList.toggle("menu_btn-style")}),getCurrentYear();
